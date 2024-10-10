@@ -1,0 +1,91 @@
+/* styles.css */
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f7f7f7; /* Light gray background */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #ff69b4; /* Pastel pink background */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff; /* White text */
+}
+
+header h2 {
+    font-size: 18px;
+    color: #333; /* Dark gray text */
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: #ffe6f2; /* Pastel pink background */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff99cc; /* Bright pink text */
+}
+
+.verse p {
+    font-size: 18px;
+    color: #666; /* Dark gray text */
+    line-height: 1.5;
+}
+
+.chorus p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #33cc33; /* Bright green text */
+    text-align: center;
+}
+
+/* Emphasis on certain lines */
+.verse p:nth-child(3) {
+    font-style: italic;
+    color: #999; /* Light gray text */
+}
+
+.chorus p:nth-child(1) {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #ff9900; /* Bright orange text */
+}
+
+/* Add some animations to make it more attractive */
+.verse p {
+    transition: color 0.5s ease;
+}
+
+.verse p:hover {
+    color: #ff69b4; /* Pastel pink text on hover */
+}
+
+.chorus p {
+    transition: transform 0.5s ease;
+}
+
+.chorus p:hover {
+    transform: scale(1.1); /* Scale up on hover */
+}
